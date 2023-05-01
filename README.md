@@ -25,6 +25,6 @@ The [web app](https://github.com/kbobbili/accumulus-analytics-app) provides endp
 
 ![app](https://user-images.githubusercontent.com/47704286/235426754-ea880d19-e1a1-4a8d-ae79-b2a5bacc7aea.png)
 
-![Screenshot 2023-05-01 003802](https://user-images.githubusercontent.com/47704286/235426505-4ffcdfca-b6d4-4f99-9b27-5407ed945fd0.jpg)
+![Screenshot 2023-05-01 010937](https://user-images.githubusercontent.com/47704286/235427093-8197cd49-9494-4f73-82eb-3f28f1ba2540.jpg)
 
 ![Screenshot 2023-05-01 004129](https://user-images.githubusercontent.com/47704286/235426531-5d75254f-e4c7-442e-8269-dba0e2add686.jpg)
