@@ -23,7 +23,4 @@ The [web app](https://github.com/kbobbili/accumulus-analytics-app) provides endp
     
 ## Demo Screenshots
 
-<div style="width:60px ; height:60px">
-![HLD](https://www.dropbox.com/s/exjn4o6emmooc7d/K_230501_004446%20%281%29.jpg?dl=0)
-<div>
 
