@@ -1,5 +1,10 @@
 # accumulus-data-pipeline
 
+## Intro
+
+This pipeline app retreives the customer toppings API and processes the data on a standalone mode spark cluster and stores the results in mongo db. 
+The [web app](https://github.com/kbobbili/accumulus-analytics-app) provides endpoints to retreive the saved metrics.
+
 ## Setup
 
 
