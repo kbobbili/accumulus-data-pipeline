@@ -1,0 +1,38 @@
+# Compiled class file
+*.class
+
+# service account
+*-nocommit.json
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.tar.gz
+*.rar
+*.iml
+
+# IntelliJ
+.idea/
+*/target/
+*target/
+*.ipr
+*.iws
+
+# Apple
+.DS*
+
+# Eclipse/STS
+.project
+.settings/
+.classpath
+.factorypath

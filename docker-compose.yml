@@ -1,0 +1,34 @@
+version: '3.7'
+services:
+  accumulus-monogdb:
+    image: mongo:latest
+    container_name: accumulus-monogdb
+    ports:
+      - 27017:27017
+    volumes:
+      - accumulus-monogdb-volume:/data/db
+    networks:
+      - accumulus-network
+  accumulus-analytics-app:
+    image: accumulus-analytics-app:latest
+    container_name: accumulus-analytics-app
+    ports:
+      - 8080:8080
+    networks:
+      - accumulus-network
+    depends_on:
+      - accumulus-monogdb
+  accumulus-data-pipeline:
+    image: accumulus-data-pipeline:latest
+    container_name: accumulus-data-pipeline
+    networks:
+      - accumulus-network
+    depends_on:
+      - accumulus-monogdb
+      - accumulus-analytics-app
+
+volumes:
+  accumulus-monogdb-volume:
+
+networks:
+  accumulus-network:
