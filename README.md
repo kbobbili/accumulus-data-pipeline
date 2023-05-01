@@ -8,7 +8,7 @@
         mvn clean install
     ```
 
-2) Run the maven build of the [web application]() project. This will build the web app and package it as another docker image named `accumulus-analytics-app`. 
+2) Run the maven build of the [web application](https://github.com/kbobbili/accumulus-analytics-app) project. This will build the web app and package it as another docker image named `accumulus-analytics-app`. 
 
 
 3) Now run docker compose to spin up both images along with dependent services. 
