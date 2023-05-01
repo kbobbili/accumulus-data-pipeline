@@ -21,6 +21,10 @@ The [web app](https://github.com/kbobbili/accumulus-analytics-app) provides endp
         docker-compose up
     ```
     
+## Demo
+
+https://www.loom.com/share/6952090e9176444eb6468c00ea649256
+
 ## App Screenshots
 
 ![app](https://user-images.githubusercontent.com/47704286/235426754-ea880d19-e1a1-4a8d-ae79-b2a5bacc7aea.png)
